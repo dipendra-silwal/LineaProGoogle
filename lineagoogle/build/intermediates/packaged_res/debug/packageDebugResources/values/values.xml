@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_barcode_scan_mode_titles">
+        <item>Single scan</item>
+        <item>Multi scan</item>
+        <item>Motion detect</item>
+        <item>Single scan on button release</item>
+        <item>Multi scan without duplicates</item>
+        <item>Video scan</item>
+    </string-array>
+    <string-array name="pref_barcode_scan_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="pref_barcode_scope_scale_mode_titles">
+        <item>None</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="pref_barcode_scope_scale_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="pref_device_timeout_period_titles">
+        <item>30s</item>
+        <item>60s</item>
+        <item>5min</item>
+        <item>10min</item>
+        <item>30min</item>
+        <item>60min</item>
+    </string-array>
+    <string-array name="pref_device_timeout_period_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <color name="black">#FF000000</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#338C38</color>
+    <color name="colorPrimaryDark">#20B80F</color>
+    <color name="primary_background">#fff</color>
+    <color name="primary_content">#80b9ed</color>
+    <color name="primary_content_dark">#258bea</color>
+    <color name="primary_outline">#004b93</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="default_stroke_padding">6dp</dimen>
+    <dimen name="default_stroke_radius">6dp</dimen>
+    <dimen name="default_stroke_width">3dp</dimen>
+    <string name="action_clear_log">Clear Log</string>
+    <string name="action_read_info">Read Info</string>
+    <string name="action_read_tag">Read RFID Tag</string>
+    <string name="action_scan">Scan</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_turn_off">Turn Off</string>
+    <string name="app_name">LineaGoogle</string>
+    <string name="app_version">Linea Demo Application\nVersion: %s\n\n IMPORTANT: this
+        application is for demonstrating purpose only.</string>
+    <string name="crash_toast_text">Oops ! I crashed, but a report has been sent to my developer to help fix the issue!</string>
+    <string name="msg_device_is_started">Linea device is started</string>
+    <string name="msg_firmware_not_found">Firmware file not found</string>
+    <string name="msg_question_update_firmware">Are you sure you want to update %s firmware?</string>
+    <string name="msg_select_firmware">Select firmware</string>
+    <string name="summary_barcode_scan_mode_preference">Specify from various barcode scan modes</string>
+    <string name="summary_barcode_scope_scale_mode_preference">Specify scale mode</string>
+    <string name="summary_beep_upon_scan_preference">Turn the beep when barcode is scanned</string>
+    <string name="summary_device_timeout_period_preference">Set timeout periods when device shall goes off after being idle.</string>
+    <string name="summary_enable_battery_charge_preference">Enable mobile device battery charge</string>
+    <string name="summary_enable_code128_symbology_preference">Enable or disable CODE128</string>
+    <string name="summary_enable_external_speaker_button_preference">Enable external speaker switch button.</string>
+    <string name="summary_enable_external_speaker_preference">Select external speaker as default audio output source.</string>
+    <string name="summary_enable_scan_button_preference">Enable barcode scanning with device button</string>
+    <string name="summary_reset_barcode_engine_preference">Reset barcode engine with default settings</string>
+    <string name="summary_vibrate_on_barcode_scan_preference">Turn the vibrator when barcode is scanned</string>
+    <string name="title_about_preference">About</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_barcode_category">Barcode settings</string>
+    <string name="title_barcode_scan_mode_preference">Barcode scan mode</string>
+    <string name="title_barcode_scope_scale_mode_preference">Barcode scope scale mode</string>
+    <string name="title_beep_upon_scan_preference">Beep upon scan</string>
+    <string name="title_device_timeout_period_preference">Device timeout period</string>
+    <string name="title_enable_battery_charge_preference">Enable battery charge</string>
+    <string name="title_enable_code128_symbology_preference">Enable CODE128 Symbology</string>
+    <string name="title_enable_external_speaker_button_preference">Enable external speaker button</string>
+    <string name="title_enable_external_speaker_preference">Enable external speaker</string>
+    <string name="title_enable_scan_button_preference">Enable scan button</string>
+    <string name="title_general_category">General settings</string>
+    <string name="title_help_category">Help</string>
+    <string name="title_reset_barcode_engine_preference">Reset barcode engine</string>
+    <string name="title_service_category">Service</string>
+    <string name="title_update_firmware_preference">Update firmware</string>
+    <string name="title_vibrate_on_barcode_scan_preference">Vibrate on barcode scan</string>
+    <string name="version">Version:</string>
+    <style name="Base.Theme.LineaGoogle" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColorPrimary">#DE000000</item>
+        <item name="android:textColorSecondary">#9E000000</item>
+    </style>
+    <style name="BatteryText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    <style name="Button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+    <style name="Text" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">#8b8e66</item>
+    </style>
+    <style name="Theme.LineaGoogle" parent="Base.Theme.LineaGoogle"/>
+    <style name="Theme.LineaGoogle.UsbPermission">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="VersionText" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+</resources>

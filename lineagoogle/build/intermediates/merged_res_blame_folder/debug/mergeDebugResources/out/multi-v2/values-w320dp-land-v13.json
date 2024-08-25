@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.datecs.lineagoogle-mergeDebugResources-37:/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dipendrasilwal/.gradle/caches/transforms-3/dd1959551eea1703c3a67208b3517442/transformed/material-1.11.0/res/values-w320dp-land-v13/values-w320dp-land-v13.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,110",
+                        "endColumns": "54,61",
+                        "endOffsets": "105,167"
+                    }
+                }
+            ]
+        }
+    ]
+}

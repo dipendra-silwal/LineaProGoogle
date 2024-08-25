@@ -1,0 +1,6 @@
+com.datecs.lineagoogle.test.lineagoogle-core-1.5.0-0 /Users/dipendrasilwal/.gradle/caches/transforms-3/d5b438539e37043e0e8709010349c13e/transformed/core-1.5.0/res
+com.datecs.lineagoogle.test.lineagoogle-annotation-experimental-1.3.0-1 /Users/dipendrasilwal/.gradle/caches/transforms-3/e067d21ae8099031b2e18672f46e8dc9/transformed/annotation-experimental-1.3.0/res
+com.datecs.lineagoogle.test.lineagoogle-androidTest-2 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/generated/res/resValues/androidTest/debug
+com.datecs.lineagoogle.test.lineagoogle-mergeDebugAndroidTestResources-3 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.datecs.lineagoogle.test.lineagoogle-mergeDebugAndroidTestResources-4 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.datecs.lineagoogle.test.lineagoogle-debugAndroidTest-5 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

@@ -1,0 +1,42 @@
+com.datecs.lineagoogle-core-runtime-2.2.0-0 /Users/dipendrasilwal/.gradle/caches/transforms-3/01b0cc163b008075dd1594b8ea5c7a57/transformed/core-runtime-2.2.0/res
+com.datecs.lineagoogle-coordinatorlayout-1.1.0-1 /Users/dipendrasilwal/.gradle/caches/transforms-3/19e734b3863913f2a4b26f486d4b75c4/transformed/coordinatorlayout-1.1.0/res
+com.datecs.lineagoogle-lifecycle-livedata-2.6.1-2 /Users/dipendrasilwal/.gradle/caches/transforms-3/22b857e36f491ff686aa84cde713e2f3/transformed/lifecycle-livedata-2.6.1/res
+com.datecs.lineagoogle-window-1.0.0-3 /Users/dipendrasilwal/.gradle/caches/transforms-3/255aa0a43ca3d6ffd5bbe55a29f06831/transformed/window-1.0.0/res
+com.datecs.lineagoogle-activity-1.8.0-4 /Users/dipendrasilwal/.gradle/caches/transforms-3/301b335e0da3809f064e9ffb9fa8c47e/transformed/activity-1.8.0/res
+com.datecs.lineagoogle-lifecycle-viewmodel-2.6.1-5 /Users/dipendrasilwal/.gradle/caches/transforms-3/3092e7904f58593eae1be19318633c1b/transformed/lifecycle-viewmodel-2.6.1/res
+com.datecs.lineagoogle-preference-1.2.1-6 /Users/dipendrasilwal/.gradle/caches/transforms-3/472785e81c7b278ca9445e4c1ae3f9a7/transformed/preference-1.2.1/res
+com.datecs.lineagoogle-appcompat-resources-1.6.1-7 /Users/dipendrasilwal/.gradle/caches/transforms-3/4ba959aa43a344234cddf07861efcd6e/transformed/appcompat-resources-1.6.1/res
+com.datecs.lineagoogle-lifecycle-runtime-ktx-2.6.1-8 /Users/dipendrasilwal/.gradle/caches/transforms-3/4bfa1143208841b4618b6f9ba28992f9/transformed/lifecycle-runtime-ktx-2.6.1/res
+com.datecs.lineagoogle-profileinstaller-1.3.0-9 /Users/dipendrasilwal/.gradle/caches/transforms-3/4f998956084505d25b077b041bfd1f09/transformed/profileinstaller-1.3.0/res
+com.datecs.lineagoogle-lifecycle-livedata-core-ktx-2.6.1-10 /Users/dipendrasilwal/.gradle/caches/transforms-3/5298fdf466a4382912ee1cd94c40642a/transformed/lifecycle-livedata-core-ktx-2.6.1/res
+com.datecs.lineagoogle-fragment-1.3.6-11 /Users/dipendrasilwal/.gradle/caches/transforms-3/55c36bc95aca42e83f61216f083f1c3a/transformed/fragment-1.3.6/res
+com.datecs.lineagoogle-transition-1.4.1-12 /Users/dipendrasilwal/.gradle/caches/transforms-3/61c86573837c6ccdab07af736e922013/transformed/transition-1.4.1/res
+com.datecs.lineagoogle-core-ktx-1.10.1-13 /Users/dipendrasilwal/.gradle/caches/transforms-3/62f8da992592c21692b7b7eead4eee09/transformed/core-ktx-1.10.1/res
+com.datecs.lineagoogle-emoji2-1.2.0-14 /Users/dipendrasilwal/.gradle/caches/transforms-3/6b424417061a688d826f8d76c60e34bf/transformed/emoji2-1.2.0/res
+com.datecs.lineagoogle-cardview-1.0.0-15 /Users/dipendrasilwal/.gradle/caches/transforms-3/8065f3016291d0780abbbd37df5ba56d/transformed/cardview-1.0.0/res
+com.datecs.lineagoogle-lifecycle-runtime-2.6.1-16 /Users/dipendrasilwal/.gradle/caches/transforms-3/82e3aa36971921a0079d18d1d776a8b4/transformed/lifecycle-runtime-2.6.1/res
+com.datecs.lineagoogle-savedstate-ktx-1.2.1-17 /Users/dipendrasilwal/.gradle/caches/transforms-3/872655bcd5a6b288ca1e36dc5630148d/transformed/savedstate-ktx-1.2.1/res
+com.datecs.lineagoogle-lifecycle-viewmodel-ktx-2.6.1-18 /Users/dipendrasilwal/.gradle/caches/transforms-3/921e18abbcad281c7f1f146ff52ee3fb/transformed/lifecycle-viewmodel-ktx-2.6.1/res
+com.datecs.lineagoogle-viewpager2-1.0.0-19 /Users/dipendrasilwal/.gradle/caches/transforms-3/938441c77734a1ad8b9212baa0cf7c28/transformed/viewpager2-1.0.0/res
+com.datecs.lineagoogle-appcompat-1.6.1-20 /Users/dipendrasilwal/.gradle/caches/transforms-3/94d9b43b088701874b65eadc84faf89f/transformed/appcompat-1.6.1/res
+com.datecs.lineagoogle-savedstate-1.2.1-21 /Users/dipendrasilwal/.gradle/caches/transforms-3/9ff11555fdfa739d0ee643b84d6601bf/transformed/savedstate-1.2.1/res
+com.datecs.lineagoogle-drawerlayout-1.1.1-22 /Users/dipendrasilwal/.gradle/caches/transforms-3/ad0f39415b47b5a322aa3b0a3040cc73/transformed/drawerlayout-1.1.1/res
+com.datecs.lineagoogle-activity-ktx-1.8.0-23 /Users/dipendrasilwal/.gradle/caches/transforms-3/adea9ff2a05f158c4d5812b091687d50/transformed/activity-ktx-1.8.0/res
+com.datecs.lineagoogle-slidingpanelayout-1.2.0-24 /Users/dipendrasilwal/.gradle/caches/transforms-3/c06c1e0811f67f18200724a4764cc8c7/transformed/slidingpanelayout-1.2.0/res
+com.datecs.lineagoogle-startup-runtime-1.1.1-25 /Users/dipendrasilwal/.gradle/caches/transforms-3/c3c87320f2395b0881b9358667c6ce18/transformed/startup-runtime-1.1.1/res
+com.datecs.lineagoogle-emoji2-views-helper-1.2.0-26 /Users/dipendrasilwal/.gradle/caches/transforms-3/c76092db4e763f1c51afe7e7b7e53591/transformed/emoji2-views-helper-1.2.0/res
+com.datecs.lineagoogle-material-1.11.0-27 /Users/dipendrasilwal/.gradle/caches/transforms-3/dd1959551eea1703c3a67208b3517442/transformed/material-1.11.0/res
+com.datecs.lineagoogle-annotation-experimental-1.3.0-28 /Users/dipendrasilwal/.gradle/caches/transforms-3/e067d21ae8099031b2e18672f46e8dc9/transformed/annotation-experimental-1.3.0/res
+com.datecs.lineagoogle-lifecycle-viewmodel-savedstate-2.6.1-29 /Users/dipendrasilwal/.gradle/caches/transforms-3/e0bd0ece9624efc743575e3c9f0a6354/transformed/lifecycle-viewmodel-savedstate-2.6.1/res
+com.datecs.lineagoogle-core-1.10.1-30 /Users/dipendrasilwal/.gradle/caches/transforms-3/e3e5e4fa19b7dac37fb9a78c7c99c0b8/transformed/core-1.10.1/res
+com.datecs.lineagoogle-constraintlayout-2.1.4-31 /Users/dipendrasilwal/.gradle/caches/transforms-3/ebad8f03110c2b04cd0fa13c29a1d983/transformed/constraintlayout-2.1.4/res
+com.datecs.lineagoogle-recyclerview-1.1.0-32 /Users/dipendrasilwal/.gradle/caches/transforms-3/ed7e6f4c138ff0d17058d7b7ff061dd9/transformed/recyclerview-1.1.0/res
+com.datecs.lineagoogle-lifecycle-livedata-core-2.6.1-33 /Users/dipendrasilwal/.gradle/caches/transforms-3/f3188e52a514cbe77cb7dd35b2fe7411/transformed/lifecycle-livedata-core-2.6.1/res
+com.datecs.lineagoogle-lifecycle-process-2.6.1-34 /Users/dipendrasilwal/.gradle/caches/transforms-3/fc18d6bb8383f27c9814a18d5698287b/transformed/lifecycle-process-2.6.1/res
+com.datecs.lineagoogle-pngs-35 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/generated/res/pngs/debug
+com.datecs.lineagoogle-resValues-36 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/generated/res/resValues/debug
+com.datecs.lineagoogle-packageDebugResources-37 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.datecs.lineagoogle-packageDebugResources-38 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.datecs.lineagoogle-debug-39 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/build/intermediates/merged_res/debug/mergeDebugResources
+com.datecs.lineagoogle-debug-40 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/src/debug/res
+com.datecs.lineagoogle-main-41 /Users/dipendrasilwal/Desktop/Project/LineaProGoogle/Test Applications/LineaGoogle-4.4.0  043024/lineagoogle/src/main/res

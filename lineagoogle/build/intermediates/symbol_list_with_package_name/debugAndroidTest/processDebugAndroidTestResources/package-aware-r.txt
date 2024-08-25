@@ -1,0 +1,3 @@
+com.datecs.lineagoogle.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

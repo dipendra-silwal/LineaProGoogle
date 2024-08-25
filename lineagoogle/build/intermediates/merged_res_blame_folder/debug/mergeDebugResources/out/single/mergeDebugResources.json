@@ -1,0 +1,202 @@
+[
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_button_normal.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/button_normal.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/xml_usb_device_filter.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/xml/usb_device_filter.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/xml_backup_rules.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery5.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery5.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/layout_battery.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/layout/battery.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery6.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery6.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/raw_connect.wav.flat",
+        "source": "com.datecs.lineagoogle-main-41:/raw/connect.wav"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/layout_log.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/layout/log.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_logo.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/logo.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/layout_status.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/layout/status.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_list_selector.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/list_selector.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_logo1.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/logo1.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/layout_fragment_main.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/layout/fragment_main.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_gradient_bg.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/gradient_bg.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery2.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery2.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/xml_data_extraction_rules.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_status_bg.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/status_bg.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/layout_activity_main.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_process.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/process.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery3.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery3.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/raw_right.wav.flat",
+        "source": "com.datecs.lineagoogle-main-41:/raw/right.wav"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/xml_settings.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/xml/settings.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/raw_left.wav.flat",
+        "source": "com.datecs.lineagoogle-main-41:/raw/left.wav"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery1.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery1.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_rfid.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/rfid.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_question.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/question.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_button_pressed.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/button_pressed.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_usb_unplugged.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/usb_unplugged.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_flash.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/flash.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/raw_disconnect.wav.flat",
+        "source": "com.datecs.lineagoogle-main-41:/raw/disconnect.wav"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_barcode.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/barcode.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.datecs.lineagoogle-main-41:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_battery4.png.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/battery4.png"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/menu_main_menu.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/menu/main_menu.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_button_selector.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/button_selector.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_pane.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/pane.xml"
+    },
+    {
+        "merged": "com.datecs.lineagoogle-debug-39:/drawable_gradient_bg_hover.xml.flat",
+        "source": "com.datecs.lineagoogle-main-41:/drawable/gradient_bg_hover.xml"
+    }
+]

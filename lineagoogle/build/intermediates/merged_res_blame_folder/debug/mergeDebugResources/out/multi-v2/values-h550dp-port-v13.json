@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.datecs.lineagoogle-mergeDebugResources-37:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/dipendrasilwal/.gradle/caches/transforms-3/dd1959551eea1703c3a67208b3517442/transformed/material-1.11.0/res/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "64",
+                        "endOffsets": "115"
+                    }
+                }
+            ]
+        }
+    ]
+}
