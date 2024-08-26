@@ -20,6 +20,8 @@ import com.datecs.lineagoogle.view.BatteryView
 import com.datecs.lineagoogle.view.LogView
 import kotlin.math.truncate
 
+import android.content.pm.PackageManager
+
 /**
  *
  */
@@ -42,7 +44,13 @@ class MainFragment : Fragment() {
         val rootView  = inflater.inflate(R.layout.fragment_main, container, false)
         val handler = Handler(inflater.context.mainLooper)
         mVersionView = rootView.findViewById<View>(R.id.version) as TextView
-        mVersionView.text = BuildInfo.VERSION
+        //mVersionView.text = BuildInfo.VERSION
+
+        val context = requireContext() // Use context from the fragment
+        val packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)
+        val versionName = packageInfo.versionName
+
+        mVersionView.text = versionName.toString()
         batteryView = rootView.findViewById<View>(R.id.battery) as BatteryView
         batteryView.setOnClickListener {
             handler.removeCallbacksAndMessages(null)

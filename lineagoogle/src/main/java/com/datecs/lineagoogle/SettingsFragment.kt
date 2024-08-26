@@ -45,7 +45,12 @@ class SettingsFragment : PreferenceFragmentCompat(), OnSharedPreferenceChangeLis
 
         findPreference<Preference>("about")!!.onPreferenceClickListener =
             Preference.OnPreferenceClickListener {
-                val message = getString(R.string.app_version, BuildInfo.VERSION)
+
+                val context = requireContext() // Use context from the fragment
+                val packageInfo = context.packageManager.getPackageInfo(context.packageName, 0)
+                val versionName = packageInfo.versionName
+               // val message = getString(R.string.app_version, BuildInfo.VERSION)
+                val message = getString(R.string.app_version, versionName)
                 val dialog = AlertDialog.Builder(activity)
                     .setTitle(R.string.app_name)
                     .setMessage(message)

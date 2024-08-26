@@ -50,6 +50,8 @@ import java.util.Timer
 import java.util.TimerTask
 
 
+
+
 private const val UPDATE_BATTERY_TIME = 3000
 
 private const val TAG: String = "LineaGoogle"
