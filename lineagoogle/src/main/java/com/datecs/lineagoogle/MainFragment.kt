@@ -117,6 +117,13 @@ class MainFragment : Fragment() {
             fragmentTransaction.addToBackStack(null)
             fragmentTransaction.commit()
         }
+
+
+        rootView.findViewById<View>(R.id.logo).setOnClickListener{
+           // logView.add("Test 123")
+            logView.clear()
+        }
+
         return rootView
     }
 

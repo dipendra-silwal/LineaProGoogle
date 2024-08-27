@@ -9,6 +9,7 @@ import android.hardware.usb.UsbManager
 import android.util.Log
 import com.datecs.linea.LineaPro
 import com.datecs.lineagoogle.connectivity.UsbDeviceConnector
+import com.datecs.lineagoogle.view.LogView
 import java.io.IOException
 
 private const val TAG = "LineaManager"

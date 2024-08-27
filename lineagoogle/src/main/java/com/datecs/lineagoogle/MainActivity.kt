@@ -153,7 +153,8 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
         fragmentTransaction.add(R.id.content, MainFragment().also { mainFragment = it })
         fragmentTransaction.commit()
         statusView = findViewById<View>(R.id.status_pane) as StatusView
-        statusView.show(R.drawable.usb_unplugged)
+        statusView.hide()
+        // statusView.show(R.drawable.usb_unplugged)
         lineaManager = (applicationContext as MyApplication).lineaManager
         lineaManager.setConnectionListener(lineaConnection)
         lineaManager.lineaPro?.let {
