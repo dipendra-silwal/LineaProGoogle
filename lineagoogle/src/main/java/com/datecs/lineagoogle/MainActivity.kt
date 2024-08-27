@@ -183,6 +183,11 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
         lineaManager.disconnect()
     }
 
+    public fun reconnect(){
+        lineaManager.disconnect()
+        lineaManager.connect()
+
+    }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
         val inflater = menuInflater
         inflater.inflate(R.menu.main_menu, menu)

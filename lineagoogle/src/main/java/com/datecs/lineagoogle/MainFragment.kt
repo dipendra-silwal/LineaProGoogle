@@ -120,8 +120,8 @@ class MainFragment : Fragment() {
 
 
         rootView.findViewById<View>(R.id.logo).setOnClickListener{
-           // logView.add("Test 123")
             logView.clear()
+            (activity as? MainActivity)?.reconnect()
         }
 
         return rootView
