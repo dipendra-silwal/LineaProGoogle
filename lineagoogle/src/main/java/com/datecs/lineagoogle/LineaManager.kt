@@ -66,7 +66,7 @@ class LineaManager(private val mContext: Context) {
 
     fun connect() {
         val manager = mContext.getSystemService(Context.USB_SERVICE) as UsbManager
-        val deviceList = manager.getDeviceList()
+        val deviceList = manager.deviceList
 
         for (device in deviceList.values) {
             if (manager.hasPermission(device)) {

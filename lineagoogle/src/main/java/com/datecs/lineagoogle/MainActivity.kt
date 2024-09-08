@@ -46,10 +46,6 @@ import java.util.concurrent.Executors
 import java.util.concurrent.TimeUnit
 import java.time.format.DateTimeFormatter
 import java.time.LocalDateTime
-import java.util.Timer
-import java.util.TimerTask
-
-
 
 
 private const val UPDATE_BATTERY_TIME = 3000

@@ -7,11 +7,20 @@ import android.os.Build
 import android.os.VibrationEffect
 import android.os.Vibrator
 import android.os.VibratorManager
+import com.datecs.lineagoogle.MainActivity
 
 object MediaUtil {
     @SuppressLint("ObsoleteSdkInt", "ServiceCast")
     @JvmStatic
-    fun playSound(context: Context, soundID: Int) {
+    fun playSound(context: MainActivity, soundID: Int) {
+        vibrate(context, 500)
+        val mediaPlayer = MediaPlayer.create(context, soundID)
+        mediaPlayer.setVolume(1.0f, 1.0f)
+        mediaPlayer.start()
+    }
+    @SuppressLint("ObsoleteSdkInt", "ServiceCast")
+    @JvmStatic
+    fun vibrate(context: Context, duration: Long){
         val vibratorManager =  if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
             val vibratorManager =
                 context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as VibratorManager
@@ -20,16 +29,12 @@ object MediaUtil {
             context.getSystemService(Context.VIBRATOR_MANAGER_SERVICE) as Vibrator
         }
 
-        val duration = 500L
+        val duration = duration
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
             vibratorManager.vibrate(VibrationEffect.createOneShot(duration, VibrationEffect.DEFAULT_AMPLITUDE))
         } else {
             @Suppress("DEPRECATION")
             vibratorManager.vibrate(duration)
         }
-
-        val mediaPlayer = MediaPlayer.create(context, soundID)
-        mediaPlayer.setVolume(1.0f, 1.0f)
-        mediaPlayer.start()
     }
 }

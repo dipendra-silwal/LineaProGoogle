@@ -3,6 +3,7 @@ package com.datecs.lineagoogle
 import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Bitmap
+import android.hardware.usb.UsbManager
 import android.os.Bundle
 import android.os.Handler
 import android.util.Log
@@ -14,13 +15,14 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
-import com.datecs.BuildInfo
 import com.datecs.linea.LineaPro
+import com.datecs.lineagoogle.connectivity.UsbDeviceConnector
 import com.datecs.lineagoogle.view.BatteryView
 import com.datecs.lineagoogle.view.LogView
 import kotlin.math.truncate
 
-import android.content.pm.PackageManager
+import com.datecs.lineagoogle.util.MediaUtil
+import java.io.IOException
 
 /**
  *
@@ -118,12 +120,68 @@ class MainFragment : Fragment() {
             fragmentTransaction.commit()
         }
 
+        rootView.findViewById<View>(R.id.logo).apply{
+            var startTime = 0L
+            var hasVibrated = false
+            var logoPressDuration = 1000L
+            // Set a touch listener to determine press duration
+            setOnTouchListener { v, event ->
+                when (event.action) {
+                    MotionEvent.ACTION_DOWN -> {
+                        // Capture the start time when the user presses down
+                        startTime = System.currentTimeMillis()
 
-        rootView.findViewById<View>(R.id.logo).setOnClickListener{
-            logView.clear()
-            (activity as? MainActivity)?.reconnect()
+                        handler.postDelayed({
+                            if (!hasVibrated) {
+                                // Vibrate the phone
+                                MediaUtil.vibrate(context, 700)
+                               // Toast.makeText(context, "Vibration Triggered After 1 Second", Toast.LENGTH_SHORT).show()
+                                hasVibrated = true  // Set the flag so vibration doesn't trigger again
+                            }
+                        }, logoPressDuration)  // 1000 milliseconds == 1 second
+                    }
+
+                    MotionEvent.ACTION_UP -> {
+                        // Capture the time when the user releases the press
+                        val endTime = System.currentTimeMillis()
+                        // Calculate the press duration
+                        val pressDuration = endTime - startTime
+                        // Check the press duration and perform actions
+                        hasVibrated = false
+                        if (pressDuration >= logoPressDuration) {
+                            logView.clear()
+                            val manager = context.getSystemService(Context.USB_SERVICE) as UsbManager
+                            val deviceList = manager.deviceList
+                            if(deviceList.size!=0){
+                                Toast.makeText(context, "List of connected devices", Toast.LENGTH_SHORT).show()
+                                for (device in deviceList.values) {
+                                    logView.add("Available Devices: "+device.productName.toString())
+                                }
+                            }
+                            else{
+                                Toast.makeText(context, "No devices available", Toast.LENGTH_SHORT).show()
+                            }
+                            //hasVibrated = true
+                            true  // Returning true means the event was handled
+                        } else {
+                            // Regular short press action
+                            logView.clear()
+                            Toast.makeText(context, "Reconnecting...", Toast.LENGTH_SHORT).show()
+                            hasVibrated = false
+                            handler.removeCallbacksAndMessages(null)
+                            (activity as? MainActivity)?.reconnect()
+                            true
+                        }
+                    }
+
+                    MotionEvent.ACTION_CANCEL -> {
+                        // Cancel the scheduled vibration if the touch event is canceled
+                        handler.removeCallbacksAndMessages(null)
+                    }
+                }
+                true  // Returning false allows other listeners (e.g., click) to run
+            }
         }
-
         return rootView
     }
 
