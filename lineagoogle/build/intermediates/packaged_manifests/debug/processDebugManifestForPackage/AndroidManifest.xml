@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.datecs.lineagoogle"
     android:versionCode="1"
-    android:versionName="4.5.0" >
+    android:versionName="4.5.1" >
 
     <uses-sdk
         android:minSdkVersion="34"

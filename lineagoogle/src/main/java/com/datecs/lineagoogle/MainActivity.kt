@@ -112,9 +112,13 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
         runAsync({ linea: LineaPro ->
             val batteryInfo = linea.batteryInfo
             runOnUiThread { mainFragment.updateBattery(batteryInfo)
-                linea.beep(80, intArrayOf(800, 150))}
+                linea.beep(80, intArrayOf(800, 150))
+                var flag = lineaPro?.isBatteryChargeEnabled
+                if (flag == true) mainFragment.addLog("<I>  Backup charge is enabled")
+                else
+                    mainFragment.addLog("<I>  Backup charge is turned OFF")
+            }
          }, false)
-
     }
 
     public inner class UpdateRunnable : Runnable {
@@ -126,6 +130,7 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
             }, false)
             //updateHandler.postDelayed(this, UPDATE_BATTERY_TIME.toLong())
         }
+
     }
 
     private var resultFirmwareFileLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result ->
@@ -247,7 +252,6 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
                     // MediaUtil.playSound(this@MainActivity, R.raw.right)
                 }
             }
-
         }
     }
 

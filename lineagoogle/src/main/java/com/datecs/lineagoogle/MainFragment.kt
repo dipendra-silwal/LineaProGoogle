@@ -58,6 +58,7 @@ class MainFragment : Fragment() {
             handler.removeCallbacksAndMessages(null)
             (activity as? MainActivity)?.updateBatteryOnTap()
 
+
       //      handler.postDelayed({
                   //QA
 //                logView.add("<I>\n\nBattery Information")
