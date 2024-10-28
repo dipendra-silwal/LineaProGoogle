@@ -560,6 +560,9 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
             else if (autoOffTimeIndex == 5) { //1 hr
                 linea.setAutoOffTime(true, 3600000)
             }
+            else if (autoOffTimeIndex == 6) { //1 hr
+                linea.setAutoOffTime(true, 5400000)
+            }
 
         } else if ("code128_symbology" == key) {
             if (info.hasIntermecEngine()) {
