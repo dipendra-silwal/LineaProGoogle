@@ -52,7 +52,7 @@ private const val UPDATE_BATTERY_TIME = 3000
 
 private const val TAG: String = "LineaGoogle"
 
-class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.ButtonListener, LineaAction,
+class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener,LineaPro.BatteryListener, LineaPro.ButtonListener, LineaAction,
     LineaPro.JpegListener {
 
     private lateinit var updateHandler: Handler
@@ -92,6 +92,7 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
             linea.setBarcodeListener(this@MainActivity)
             linea.setButtonListener(this@MainActivity)
             linea.setJpegListener(this@MainActivity)
+            linea.setBatteryListener(this@MainActivity)
             lineaPro = linea
             updateHandler.removeCallbacksAndMessages(null)
            updateHandler.post(updateRunnable)
@@ -261,6 +262,13 @@ class MainActivity : AppCompatActivity(), LineaPro.BarcodeListener, LineaPro.But
             runOnUiThread {
                 mainFragment.updateJpeg(bitmap)
             }
+        }
+    }
+
+     override fun onBatteryChanged(batteryInfo: LineaPro.BatteryInfo?) {
+        Log.d("Battery", "Battery info changed")
+        runOnUiThread {
+            mainFragment.updateBattery(batteryInfo)
         }
     }
 

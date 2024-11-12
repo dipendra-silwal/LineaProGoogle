@@ -42,6 +42,7 @@
         <item>10min</item>
         <item>30min</item>
         <item>60min</item>
+        <item>90min</item>
     </string-array>
     <string-array name="pref_device_timeout_period_values">
         <item>0</item>
@@ -50,6 +51,7 @@
         <item>3</item>
         <item>4</item>
         <item>5</item>
+        <item>6</item>
     </string-array>
     <color name="black">#FF000000</color>
     <color name="colorAccent">#FF4081</color>
